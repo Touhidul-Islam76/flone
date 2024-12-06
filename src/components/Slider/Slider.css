@@ -1,0 +1,46 @@
+.image{
+    animation: fade-in-out,fade-in 1s;
+    
+
+}
+.item-info{
+    animation: fade-in-out2,fade-in 1s;
+    
+}
+.image{
+    animation:fade-in 3s;
+    
+
+}
+.item-info{
+    animation:fade-in 3s;
+    
+}
+@keyframes fade-in-out {
+        from {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fade-in-out2 {
+        from {
+            opacity: 0;
+            transform: translateY(170%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }

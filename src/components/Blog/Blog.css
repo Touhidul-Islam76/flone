@@ -1,0 +1,12 @@
+.blog-image{
+    transition: all 0.5s ease;
+    transform:scale(1);
+    overflow: clip;
+}
+.blog-image:hover{
+    transform:scale(1.2);
+}
+.blog-info{
+    position: relative;
+}
+

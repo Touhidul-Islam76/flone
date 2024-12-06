@@ -1,0 +1,16 @@
+.img{
+    transition: all 0.5s linear;
+    transform: scale(1);
+}
+.img:hover{
+    transform: scale(1.1);
+
+}
+.blog-wrapper{
+    animation: fadeIn 1s linear forwards ;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }

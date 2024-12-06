@@ -1,0 +1,13 @@
+.tab-btn button.active{
+    background-color: blueviolet;
+    color: white;
+}
+.tab-info{
+    animation: fadeIn 0.5s linear forwards ;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  

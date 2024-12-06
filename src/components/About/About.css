@@ -1,0 +1,28 @@
+.about-p{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+}
+.left{
+   animation: transform 1s linear forwards;
+    
+}
+.right{ 
+    animation: transform2 1s linear forwards;}
+@keyframes transform {
+    0% {
+        transform: translateX(-120%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes transform2 {
+    0% {
+        transform: translateX(120%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
